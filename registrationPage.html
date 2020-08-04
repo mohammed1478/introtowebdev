@@ -6,25 +6,51 @@
     <title>Registration Page</title>
 </head>
 <body>
+
     <h1> Register </h1> 
-    <form>
-        <label for="firstname"> first name: </label>
-        <input id="firstname" type="text" required>
+    <form action="https://www.google.com/" method ="get">
+        <div>
+            <label for="firstname"> first name: </label>
+            <input id="firstname" type="text" required>
+    
+            <label for="lastname"> last name: </label>
+            <input id="lastname" type = "text" required>
+        </div>
+       
 
-        <label for="lastname"> last name: </label>
-        <input id="lastname" type = "text" required>
+        <div>
+            <label for="male"> Male </label>
+            <input name = "gender" value = "Male" type="radio" id="male">
+    
+            <label for="female"> Female </label>
+            <input name = "gender" value = "Female" type="radio" id="female">
+    
+            <label for="other"> Other </label>
+            <input name = "gender" value = "other" type="radio" id="other">
+        </div>
+      
 
-    </form>
 
-    <form >
-        <label for="male">Male</label>
-        <input name = "gender" type="radio" id="male">
+        <div>
+            <label for="email">Email:</label>
+            <input id="email" type = "email" required>
+    
+            <label for="password">Password:</label>
+            <input id="password" type = "password"  pattern=".{8,15}" title="Must me 8 - 15 letters" required>
+        </div>
 
-        <label for="female">Female</label>
-        <input name = "gender" type="radio" id="female">
+        <div>
+            <label for="birthday"> Birthday : </label>
+            <input id="birthday" type="date" required>
+        </div>
 
-        <label for="other">other</label>
-        <input name = "gender" type="radio" id="other">
+        <div>
+            <label for="tac"> I agree to the terms and conditions</label>
+            <input id="tac" type="checkbox" required>
+        </div>
+
+        <button> Submit </button>
+
     </form>
     
 </body>
