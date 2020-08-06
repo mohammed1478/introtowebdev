@@ -1,6 +1,7 @@
 h1{
     color: #faf9f7;
     background-color: #faa700; 
+    border: #cccbca solid 2px; /*  the border must have a color, style and width */
 }
 
 body{
