@@ -1,11 +1,34 @@
+
+/* Example of element selector*/
+
 h1{
     color: #faf9f7;
     background-color: #faa700; 
-    border: #cccbca solid 2px; /*  the border must have a color, style and width */
+    border-color: aliceblue;
+    border-width: 2px;
+    border-style: dashed;
+ /*  the border must have a color, style and width */
+ 
 }
+
+
 
 body{
     background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/06/NYC-Wallpapers-HD.jpg);
     background-size: cover;
 }
+
+
+
+
+/* Example of class selector*/
+.purp{
+    color: #b932e6;
+}
+
+/* Example of id selector*/
+#dontlive{
+    text-decoration: line-through;
+}
+
 
