@@ -1,0 +1,29 @@
+body{
+    font-family: 'Lemonada', cursive;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.vertical{
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.horizontal{
+    border-bottom: 2px solid black;
+}
+
+td{
+    padding:80px
+}
+
+table{
+    margin-left: 30%;
+    
+    
+}
