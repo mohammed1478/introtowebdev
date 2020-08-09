@@ -1,5 +1,6 @@
 body{
     font-family: 'Lemonada', cursive;
+    background-image: linear-gradient(#34ebd5,#34c9eb);
 
 }
 
@@ -20,10 +21,10 @@ h1{
 
 td{
     padding:80px
+    
 }
 
 table{
     margin-left: 30%;
-    
     
 }
