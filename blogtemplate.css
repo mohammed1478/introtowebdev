@@ -1,10 +1,32 @@
 body{
-    border: solid 10px gray;
-    margin-left: 300px;
-    margin-right: 300px;
+    border: solid 20px gray;
+    padding: 20px;
+    margin: auto;
+    width: 50%;
     font-family: 'Oswald', sans-serif;
 }
 
 h1{
     text-transform: uppercase;
+    margin: 10px;
+}
+h3{
+    text-transform: uppercase;
+    margin: 10px;
+    color: #04c1d9;
+    letter-spacing: 5px;
+}
+p{
+    margin: 10px;
+}
+
+div{
+    margin: 10px;
+    border-bottom: 2px solid #dbdad5;
+    
+}
+
+p:nth-of-type(1){
+    border-left: gray 5px solid;
+    padding: 4px
 }
